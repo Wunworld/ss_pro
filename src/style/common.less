@@ -1,0 +1,128 @@
+body, div, span, header, footer, nav, section, aside, article,
+ul, dl, dt, dd, li, a, p, h1, h2, h3, h4,h5, h6, i, b, textarea,
+button, input, select, figure, figcaption {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    font-family: "Microsoft Yahei",sans-serif;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-font-smoothing: antialiased;
+    &:focus {
+        outline: none;
+    }
+}
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar
+{
+    width: 0px;
+    height: 0px;
+    background-color: #F5F5F5;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+input[type="button"], input[type="submit"], input[type="search"], input[type="reset"] {
+    -webkit-appearance: none;
+}
+
+textarea { -webkit-appearance: none;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    // background-color: #F5F5F5;
+}
+
+.fillcontain{
+    height: 100%;
+    width: 100%;
+}
+.clear:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.clear{
+    zoom:1;
+}
+
+.back_img{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.margin{
+    margin: 0 auto;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.showInline{
+    display: inline-block;
+}
+
+.ellipsis{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.w{
+  width: 1500px;
+  height: auto;
+  margin: 0 auto;
+}
+.colorW{color: white;}
+.colorBase{color: #e84b6d;}
+.color74{color: #747474;}
+.bgW{background: white;}
+.txtCenter{text-align: center;}
+.w1p{width: 100%;}
+.h1p{height: 100%;}
+.wh1p{width: 100%;height: 100%;}
+.posRe{position: relative;}
+.posAb{position: absolute;}
+.posAbZ{position: absolute;z-index: 11;}
+.leftTop0{left: 0;top: 0;}
+.leftTop50{left: 50%;top: 50%;}
+.cursor{cursor: pointer;}
+.br{border-radius: 5px;}
+.ftw2{font-weight: 200;}
+.ft12{font-size: 12px;}
+.ft14{font-size: 14px;}
+.ft16{font-size: 16px;}
+.ft18{font-size: 18px;}
+.ft20{font-size: 20px;}
+.b{border: 1px solid #dcdfe6;}
+.bm2{border-bottom: 2px solid #dcdfe6;}
